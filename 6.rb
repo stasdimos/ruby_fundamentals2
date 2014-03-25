@@ -1,12 +1,12 @@
 grocery_list = ["carrots", "toilet paper", "apples", "salmon"]
 
-puts grocery_list # Put List
+puts grocery_list  # List with asteriks
 
 grocery_list << "rice" # Add Rice
 
 puts grocery_list # Put List Again
 
-puts grocery_list.length # How Long is List
+puts "You need to pick up #{grocery_list.length} items"
 
 if grocery_list.include? ('Banana')
 	then
@@ -15,10 +15,14 @@ if grocery_list.include? ('Banana')
 		puts "You need to pick up Bananas"
 end
 
+#Question 5
 puts grocery_list[1]
 
+#Question 6
 puts grocery_list.sort
 
+#Question 7
 grocery_list.delete_at(3)
 puts grocery_list
+
 
